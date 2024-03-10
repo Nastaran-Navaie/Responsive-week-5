@@ -151,6 +151,7 @@ h2 {
   h2 {
     font-size: 16px;
   }
+
   .yogurt-paragrapgh-title {
     text-align: center;
   }
@@ -253,4 +254,72 @@ nav a.active {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+}
+footer {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+footer .contact-box {
+  background-color: var(--background-color-introduction);
+  padding: 40px 105px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+footer .btn-contact-index {
+  font-size: 18px;
+  font-family: var(--paragraph-font-family);
+  font-weight: 400;
+  background-color: var(--background-color-btn-contact);
+  color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 18px 30px;
+}
+footer .btn-contact-index:hover {
+  cursor: pointer;
+  background-color: var(--background-color-btn-contact);
+  color: #272142;
+}
+
+footer h4 {
+  font-family: var(--headings-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  text-align-last: left;
+}
+footer p {
+  font-family: var(--paragraph-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  color: #272142;
+  text-align-last: left;
+}
+footer .btn-contact-index {
+  text-align: right;
+  border: 1px solid;
+}
+footer .footer-email {
+  font-family: var(--paragraph-font-family);
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  margin-top: 200;
+}
+footer .footer-email:hover {
+  cursor: pointer;
+  color: #6c63ff;
+}
+footer .social-links a {
+  font-style: 18px;
+  color: #6c63ff;
+  margin: 5px 40px;
+  background: #e8e7ff;
+  padding: 10px 13px;
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  cursor: pointer;
+  color: #e8e7ff;
+  background: #6c63ff;
 }
